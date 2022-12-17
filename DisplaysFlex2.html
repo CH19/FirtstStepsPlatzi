@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .Master{
+       display: flex;
+        background-color: aqua;
+        width: 1500px;
+        height: 800px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+       
+   
+    }
+    .cuadrado{
+      
+        background-color: greenyellow;
+        width: 150px;
+        height: 150px;
+     
+    }
+    .Master .cuadrado:nth-child(2n+1){
+        background-color: blueviolet;
+    }
+    /* el lenguaje CSS es CaseSensitive mucho cuidado*/
+</style>
+</head>
+<body>
+    <div class="Master">
+        <div class="cuadrado">Div Centrado HDP </div>
+        <div class="cuadrado"> </div>
+        <div class="cuadrado"> </div>
+        <div class="cuadrado"> </div>
+    </div>
+</body>
+</html>

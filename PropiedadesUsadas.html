@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body{
+    background-color: aquamarine;
+}
+  .card{
+    display: grid; 
+    top: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: purple;
+        border-radius: 20%;
+        overflow: hidden;
+        position:relative
+    }
+    .card img{
+        grid-area: 1/1;
+    
+    
+    }
+    .TylerFondo{
+        width: 100%;
+    }
+    .Tyler{
+        width: 200px;
+         height:200px;
+  align-self: center;
+  justify-self: center;
+  grid-area: 1 / 1;
+  margin-top: 50px;
+  border-radius: 50%;
+    }
+    .card p:nth-child(3){
+        position: absolute;
+        bottom: 15%;
+      left: 35%;
+    }
+    .card p:nth-child(4){
+        position: absolute;
+        bottom: 10%;
+      left: 30%;
+      color: papayawhip;
+    }
+</style>
+</head>
+<body >
+    <section>
+        
+        <div class="card"><!--Aqui estamos tratando de hacer una carta de presentacion-->
+            <img class="TylerFondo" src="https://tse1.mm.bing.net/th?id=OIP.MzUHRyUSJjk5QIlYy2k9AAHaEK&pid=Api&P=0" alt="">
+            <img class="Tyler" src="https://wallpapercave.com/wp/wp6496698.jpg" alt="sdfgdfg">
+            <p>I'm tyler the creator</p>
+            <p>Follow me in all social media</p>
+        </div>
+    </section>
+</body>
+</html>

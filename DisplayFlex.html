@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        background-color: aquamarine;
+       }
+       .Container{
+            display: flex;
+           
+            background-color: blueviolet;
+            justify-content: center;
+           /* align-items: center;*/
+           flex-direction: column;
+            height: 500px;
+           
+        }
+       .Item{
+            background-color: rgb(20, 155, 54);
+            width: 150px;
+            height: 50px;
+        }
+        .Container .Item:nth-child(2n + 1){
+            background-color: blue;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="Container">
+        <div class="Item"></div>
+        <div class="Item"></div>
+        <div class="Item"></div>        
+        <div class="Item"></div>        
+    </div>
+</body>
+</html>

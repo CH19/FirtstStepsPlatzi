@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div{
+        left: 50%;
+        width: 100px;
+        height: 100px;
+        position:absolute;
+        background: linear-gradient(blue, purple, green);
+        border-radius: 50%;
+
+    }
+    .circ1{
+        z-index: 0;
+        top: 50px;
+
+    }
+    .circ2{
+        z-index: -1;
+        top: 100px;
+    }
+    .circ3{
+        z-index: -2;
+        top: 150px;
+    }
+    .circ4{
+        z-index: -3;
+        top: 200px;
+    }
+</style>
+<body>
+        <div class="circ1"></div>
+        <div class="circ2"></div>
+        <div class="circ3"></div>
+        <div class="circ4"></div>
+</body>
+</html>
